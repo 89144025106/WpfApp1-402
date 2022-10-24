@@ -26,7 +26,20 @@ namespace WpfApp1_ИСРПО_Гуляева_402
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            listBox1.Items.Add(textBox1.Text);
 
         }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Sort_Click(object sender, RoutedEventArgs e)
+        {
+            listBox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Content", System.ComponentModel.ListSortDirection.Ascending));
+                
+        }
     }
-}
+    }
+
