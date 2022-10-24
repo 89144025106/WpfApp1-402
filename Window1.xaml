@@ -7,30 +7,31 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <ListBox Margin="10,10,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="404" Height="200">
-            <ListBoxItem Content="Coffie"></ListBoxItem>
-            <ListBoxItem Content="Tea"></ListBoxItem>
-            <ListBoxItem Content="Organge Juice"></ListBoxItem>
-            <ListBoxItem Content="Milk"></ListBoxItem>
-            <ListBoxItem Content="Iced Tea"></ListBoxItem>
-            <ListBoxItem Content="Mango Shake"></ListBoxItem>
+        <ListBox Margin="0,10,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="470" Height="355">
+            <ListBoxItem Background="#FFEC8C8C" Foreground="#FF0E0D0D" Content="Coffie" BorderBrush="#FFEA7676" FontWeight="Bold" FontStyle="Italic" Height="36" Width="223"></ListBoxItem>
+            <ListBoxItem Background="#FFC0EAAC" Foreground="Black" Content="Tea" FontWeight="Bold" FontStyle="Italic" BorderBrush="#FF83E8AC" Height="33" Width="222"></ListBoxItem>
+            <ListBoxItem Background="#FFB6BBF0" Content="Organge Juice" BorderBrush="#FFD46262" Foreground="#FF1F0C78" FontWeight="Bold" FontStyle="Italic" Height="31" Width="222"></ListBoxItem>
+            <ListBoxItem Background="#FFF0ABAB"  Content="Milk" Foreground="Black" FontWeight="Bold" FontStyle="Italic" Height="39" Width="225"></ListBoxItem>
+            <ListBoxItem Background="#FF92C8EE" Content="Iced Tea" FontWeight="Bold" FontStyle="Italic" Height="38" Width="227"></ListBoxItem>
+            <ListBoxItem Background="#FFDBF1AC" Content="Mango Shake" FontWeight="Bold" FontStyle="Italic" Height="39" Width="227"></ListBoxItem>
         </ListBox>
 
-        <TextBox Height="23"
+        <TextBox Height="32"
                  HorizontalAlignment="Left"
-                 Margin="8 14 0 0"
+                 Margin="125,239,0,0"
                  Name="textBox1"
-                 VerticalAlignment="Top" Width="193"/>
-        <Button Height="23" Margin="13,177,646,0" Name="DeleteButton"
+                 VerticalAlignment="Top" Width="223" TextChanged="textBox1_TextChanged"/>
+        <Button Height="23" Margin="125,292,560,0" Name="DeleteButton"
                 VerticalAlignment="Top"
                 Click="DeleteButton_Click">Delete Item</Button>
         <Button Content="Short" x:Name="Sort"
-                Margin="169,178,540,218"
+                Margin="264,291,445,105"
                 Click="Sort_Click"/>
         <Button Height="23" x:Name="button1"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Width="76"
-                Click="button1_Click" Content="Add Item" Margin="278,179,0,0"/>
+                Click="button1_Click" Content="Add Item" Margin="373,290,0,0"/>
+
     </Grid>
 </Window>

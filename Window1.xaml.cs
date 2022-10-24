@@ -40,6 +40,11 @@ namespace WpfApp1_ИСРПО_Гуляева_402
             listBox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("Content", System.ComponentModel.ListSortDirection.Ascending));
                 
         }
+
+        private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
     }
 
