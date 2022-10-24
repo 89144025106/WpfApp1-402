@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <ListBox Margin="10 10 0 13" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="194" Height="200">
+            <ListBoxItem Content="Coffie"></ListBoxItem>
+            <ListBoxItem Content="Tea"></ListBoxItem>
+            <ListBoxItem Content="Organge Juice"></ListBoxItem>
+            <ListBoxItem Content="Milk"></ListBoxItem>
+            <ListBoxItem Content="Iced Tea"></ListBoxItem>
+            <ListBoxItem Content="Mango Shake"></ListBoxItem>
+        </ListBox>
     </Grid>
 </Window>
