@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -100,6 +101,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc15e48ce463fdeb07b8f9dd2b796c28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\коффе.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cc15e48ce463fdeb07b8f9dd2b796c28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67f3d38f142011e5827b3065ec4a0c41-db98959a8fac11e782c03065ec4a0c41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="67f3d38f142011e5827b3065ec4a0c41-db98959a8fac11e782c03065ec4a0c41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\711-7113079_orange-juice-apple-juice-hd-png-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="711-7113079_orange-juice-apple-juice-hd-png-download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-food-dairy-products-milk-vday-miscellaneous-food-cuisine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="png-transparent-food-dairy-products-milk-vday-miscellaneous-food-cuisine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moloko_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="moloko_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-long-island-iced-tea-fizzy-drinks-cocktail-tea-5abbf367cbcd33.5684207115222669838348.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kisspng-long-island-iced-tea-fizzy-drinks-cocktail-tea-5abbf367cbcd33.5684207115222669838348.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2422.970.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="2422.970.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

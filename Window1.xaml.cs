@@ -45,6 +45,16 @@ namespace WpfApp1_ИСРПО_Гуляева_402
         {
 
         }
+
+        private void ListBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ListBoxItem_Selected_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
     }
 
