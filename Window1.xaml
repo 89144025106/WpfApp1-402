@@ -8,62 +8,80 @@
         Title="Window1" Height="450" Width="800">
     <Grid>
         <ListBox Margin="0,10,0,0" Name="listBox1" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="470" Height="355">
-            <ListBoxItem Background="#FFE49595" Foreground="#FFEC1E1E" Content="                            Coffie"  BorderBrush="#FFEA7676" Height="52" Width="222" FontWeight="Bold" Selected="ListBoxItem_Selected" FontSize="14"/>
             <ListBoxItem Background="LightBlue" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="26" Width="221">
                 <CheckBox Name="CoffieCheckBox">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="pack://siteoforigin:,,,/cc15e48ce463fdeb07b8f9dd2b796c28.jpg" Height="30" Width="30"></Image>
-                        
+                        <TextBlock Text="Coffie"></TextBlock>
+
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
+
             <StackPanel Orientation="Horizontal"/>
-            <ListBoxItem x:Name="Tea" Background="#FFA3F37D" BorderBrush="#FF83E8AC" Height="45" Width="222" FontSize="14" Selected="ListBoxItem_Selected_1" Cursor="No" FontFamily="Ljnh" FontWeight="Bold">
-                <Image Source="67f3d38f142011e5827b3065ec4a0c41-db98959a8fac11e782c03065ec4a0c41.jpg" Stretch="Fill" Width="65" Height="39"/>
+            <ListBoxItem Background="Gold" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="26" Width="221">
+                <CheckBox x:Name="CoffieCheckBox1">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\vs\WpfApp1 ИСРПО Гуляева 402\Resources\67f3d38f142011e5827b3065ec4a0c41-db98959a8fac11e782c03065ec4a0c41.jpg" Height="30" Width="30"/>
+                        <TextBlock Text="Tea"/>
+
+                    </StackPanel>
+                </CheckBox>
             </ListBoxItem>
-            <ListBoxItem Background="#FFB8BEFB" BorderBrush="#FF3C57D1" Foreground="#FF5944BB" Height="43" Width="222" FontWeight="Bold" FontSize="14">
-                <Image Height="43" Source="711-7113079_orange-juice-apple-juice-hd-png-download.png" Stretch="Fill" Width="55"/>
+            <ListBoxItem Background="Pink" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="26" Width="221">
+                <CheckBox x:Name="CoffieCheckBox2">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\vs\WpfApp1 ИСРПО Гуляева 402\Resources\711-7113079_orange-juice-apple-juice-hd-png-download.png" Height="30" Width="30"/>
+                        <TextBlock Text="Orange Juce"/>
+
+                    </StackPanel>
+                </CheckBox>
             </ListBoxItem>
-            <ListBoxItem Background="#FF9FEE98" Foreground="#FF469C2C" FontWeight="Bold" FontStyle="Italic" Height="39" Width="225" FontSize="14">
-                <Image Height="39" Source="moloko_1.jpg" Stretch="Fill" Width="60"/>
+            <ListBoxItem Background="DeepSkyBlue" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="26" Width="221">
+                <CheckBox x:Name="CoffieCheckBox3">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\vs\WpfApp1 ИСРПО Гуляева 402\Resources\moloko_1.jpg" Height="30" Width="30"/>
+                        <TextBlock Text="Milk"/>
+
+                    </StackPanel>
+                </CheckBox>
             </ListBoxItem>
-            <ListBoxItem Background="#FF92C8EE" FontWeight="Bold" FontStyle="Italic" Height="38" Width="227" FontSize="14" Foreground="#FF0F2E97">
-                <Image Height="38" Source="kisspng-long-island-iced-tea-fizzy-drinks-cocktail-tea-5abbf367cbcd33.5684207115222669838348.jpg" Stretch="Fill" Width="60"/>
+            <ListBoxItem Background="Orange" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="26" Width="221">
+                <CheckBox x:Name="CoffieCheckBox4">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\vs\WpfApp1 ИСРПО Гуляева 402\Resources\kisspng-long-island-iced-tea-fizzy-drinks-cocktail-tea-5abbf367cbcd33.5684207115222669838348.jpg" Height="30" Width="30"/>
+                        <TextBlock Text="Iced Tea"/>
+
+                    </StackPanel>
+                </CheckBox>
             </ListBoxItem>
-            <ListBoxItem Background="#FFDBF1AC" FontWeight="Bold" FontStyle="Italic" Height="41" Width="226" FontSize="14" Foreground="#FFFF870F">
-                <Image Height="39" Source="2422.970.jpg" Stretch="Fill" Width="56"/>
+            <ListBoxItem Background="GreenYellow" Foreground="Red" FontFamily="Verdana" FontSize="12" FontWeight="Bold" Height="26" Width="221">
+                <CheckBox x:Name="CoffieCheckBox5">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="D:\vs\WpfApp1 ИСРПО Гуляева 402\Resources\2422.970.jpg" Height="30" Width="30"/>
+                        <TextBlock Text="Mango Shake"/>
+
+                    </StackPanel>
+                </CheckBox>
             </ListBoxItem>
         </ListBox>
 
         <TextBox Height="32"
                  HorizontalAlignment="Left"
-                 Margin="124,272,0,0"
+                 Margin="124,198,0,0"
                  Name="textBox1"
                  VerticalAlignment="Top" Width="223" TextChanged="textBox1_TextChanged"/>
-        <Button Height="23" Margin="125,309,560,0" Name="DeleteButton"
+        <Button Height="23" Margin="116,263,569,0" Name="DeleteButton"
                 VerticalAlignment="Top"
                 Click="DeleteButton_Click">Delete Item</Button>
         <Button Content="Short" x:Name="Sort"
-                Margin="264,309,445,87"
+                Margin="264,264,445,132"
                 Click="Sort_Click"/>
         <Button Height="23" x:Name="button1"
                 VerticalAlignment="Top"
                 HorizontalAlignment="Left"
                 Width="76"
-                Click="button1_Click" Content="Add Item" Margin="373,309,0,0"/>
-        <StackPanel Orientation="Horizontal">
-            <Image Source="pack://siteoforigin:,,,/cc15e48ce463fdeb07b8f9dd2b796c28.jpg" Stretch="Fill" Width="58" RenderTransformOrigin="1.6,5.7" Margin="0,14,0,356">
-
-
-                <Image.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform ScaleY="-1"/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="180.233"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Image.RenderTransform>
-            </Image>
-        </StackPanel>
+                Click="button1_Click" Content="Add Item" Margin="373,265,0,0"/>
+        <StackPanel Orientation="Horizontal"/>
     </Grid>
 </Window>
