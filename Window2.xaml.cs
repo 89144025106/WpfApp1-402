@@ -10,30 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp1_ИСРПО_Гуляева_402
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Window2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Window2 : Window
     {
-        public MainWindow()
+        public Window2()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window1 = new Window1();
-            window1.Show();
-            Window2 window2 = new Window2();
-            window2.Show();
-            Window3 window3 = new Window3();
-            window3.Show();
-
         }
     }
 }

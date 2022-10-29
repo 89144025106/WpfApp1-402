@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1_ИСРПО_Гуляева_402.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1_ИСРПО_Гуляева_402"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+          
+            <ListBox Name="mcListBox" Height="126" Width="186" Margin="10 10 0 0" HorizontalAlignment="Left">
+                <ListBoxItem>Студенты</ListBoxItem>
+                <ListBoxItem>Породы собак</ListBoxItem>
+                <ListBoxItem>Породы кошек</ListBoxItem>
+                <ListBoxItem>Марки автомобилей</ListBoxItem>
+                <ListBoxItem>Марки мотоциклов</ListBoxItem>
+                <ListBoxItem>Самолёты</ListBoxItem>
+                <ListBoxItem>Виды деревьев</ListBoxItem>
+                <ListBoxItem>Виды цветов</ListBoxItem>
+                <ListBoxItem>Концелярские товары</ListBoxItem>
+                <ListBoxItem>Компютерные комплектующие</ListBoxItem>
+                <ListBoxItem>Планеты</ListBoxItem>
+                <ListBoxItem>Хлебобулочные изделия</ListBoxItem>
+                <ListBoxItem>Сумки</ListBoxItem>
+                <ListBoxItem>Одежда</ListBoxItem>
+                <ListBoxItem>Мебель</ListBoxItem>
+            </ListBox>
+           </StackPanel>
+        <Image Source="D:\vs\WpfApp1 ИСРПО Гуляева 402\Resources\коффе.png"/>
+    </Grid>
+</Window>
