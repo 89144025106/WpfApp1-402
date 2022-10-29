@@ -8,7 +8,7 @@
         Title="Window3" Height="450" Width="800">
     <Grid>
         <StackPanel Orientation="Vertical">
-          
+
             <ListBox Name="mcListBox" Height="126" Width="186" Margin="10 10 0 0" HorizontalAlignment="Left">
                 <ListBoxItem>Студенты</ListBoxItem>
                 <ListBoxItem>Породы собак</ListBoxItem>
@@ -26,7 +26,9 @@
                 <ListBoxItem>Одежда</ListBoxItem>
                 <ListBoxItem>Мебель</ListBoxItem>
             </ListBox>
-           </StackPanel>
-        <Image Source="D:\vs\WpfApp1 ИСРПО Гуляева 402\Resources\коффе.png"/>
+          
+          
+
+        </StackPanel>
     </Grid>
 </Window>
